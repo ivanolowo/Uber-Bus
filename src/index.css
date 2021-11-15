@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@layer base {
+  @font-face {
+    fontfont-family: Uber Move;
+    font-weight: 400;
+    src: url("//db.onlinewebfonts.com/t/573089545ab542f15b3e755559e383ae.eot"); src: url("//db.onlinewebfonts.com/t/573089545ab542f15b3e755559e383ae.eot?#iefix") format("embedded-opentype");
+  }
+}
+
+ @layer components {
+    .wrapper {
+      @apply flex flex-col bg-red-300 h-screen;
+    },
+    .map-container {
+        @apply flex-1 ;
+    }
+    
+    .Header {
+      @apply text-6xl 
+    }
+  }
+ 
